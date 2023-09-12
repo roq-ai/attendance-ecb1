@@ -1,0 +1,2322 @@
+[
+  {
+    "student": [
+      {
+        "id": "4985f0a6-57d8-4939-b398-42b83feca0bf",
+        "name": "Emily",
+        "birthdate": "2023-09-12T05:58:33.041Z",
+        "division": "A",
+        "group_name": "Science Club",
+        "created_at": "2023-09-11T23:21:31.011Z",
+        "updated_at": "2023-09-12T00:03:04.907Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "9c641040-d6fe-45d5-b406-2f2576c3f448",
+        "name": "Daniel",
+        "birthdate": "2023-09-12T02:44:56.676Z",
+        "division": "B",
+        "group_name": "Chess Club",
+        "created_at": "2023-09-11T12:49:11.373Z",
+        "updated_at": "2023-09-12T02:03:19.843Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "4443ba04-ff3d-43cc-a917-2156ffb4195b",
+        "name": "Olivia",
+        "birthdate": "2023-09-12T03:49:03.538Z",
+        "division": "C",
+        "group_name": "Art Club",
+        "created_at": "2023-09-11T23:45:59.092Z",
+        "updated_at": "2023-09-11T23:58:52.697Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "7d5fa93d-b649-4874-ac8f-640aa99f7bfe",
+        "name": "Jacob",
+        "birthdate": "2023-09-12T03:23:46.257Z",
+        "division": "D",
+        "group_name": "Music Club",
+        "created_at": "2023-09-11T20:41:36.415Z",
+        "updated_at": "2023-09-11T11:17:53.664Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "ac9080ee-206b-4e1a-aa57-878ede529858",
+        "name": "Ava",
+        "birthdate": "2023-09-11T07:56:49.094Z",
+        "division": "E",
+        "group_name": "Sports Club",
+        "created_at": "2023-09-12T05:51:17.348Z",
+        "updated_at": "2023-09-11T20:24:55.959Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "leave": [
+      {
+        "id": "f78f63f2-3de5-44e7-b697-67edfda8ddc4",
+        "start_date": "2023-09-11T08:44:12.890Z",
+        "end_date": "2023-09-11T18:35:18.495Z",
+        "reason": "Family vacation",
+        "created_at": "2023-09-11T19:21:23.698Z",
+        "updated_at": "2023-09-12T05:52:02.627Z",
+        "student_id": "9c641040-d6fe-45d5-b406-2f2576c3f448"
+      },
+      {
+        "id": "13999419-6cb9-48ac-ba45-72f9e8e13288",
+        "start_date": "2023-09-11T07:54:22.326Z",
+        "end_date": "2023-09-12T00:43:10.537Z",
+        "reason": "Medical appointment",
+        "created_at": "2023-09-11T20:16:11.025Z",
+        "updated_at": "2023-09-11T21:39:45.569Z",
+        "student_id": "4985f0a6-57d8-4939-b398-42b83feca0bf"
+      },
+      {
+        "id": "157736fb-2dcc-4222-bafd-cc4b93e9d3fa",
+        "start_date": "2023-09-11T08:12:01.152Z",
+        "end_date": "2023-09-11T17:35:25.959Z",
+        "reason": "Personal reasons",
+        "created_at": "2023-09-11T15:07:30.167Z",
+        "updated_at": "2023-09-12T04:58:05.065Z",
+        "student_id": "7d5fa93d-b649-4874-ac8f-640aa99f7bfe"
+      },
+      {
+        "id": "5c8d8a4c-94c2-4ff8-bb4b-dd8fe2cbdd52",
+        "start_date": "2023-09-12T00:14:38.721Z",
+        "end_date": "2023-09-11T16:46:02.802Z",
+        "reason": "Religious observance",
+        "created_at": "2023-09-12T04:56:37.246Z",
+        "updated_at": "2023-09-11T18:16:17.549Z",
+        "student_id": "ac9080ee-206b-4e1a-aa57-878ede529858"
+      },
+      {
+        "id": "316b9880-02e7-435b-afe8-3c77448d7813",
+        "start_date": "2023-09-12T01:26:02.883Z",
+        "end_date": "2023-09-11T09:14:17.190Z",
+        "reason": "Educational conference",
+        "created_at": "2023-09-11T12:13:30.035Z",
+        "updated_at": "2023-09-12T00:15:27.347Z",
+        "student_id": "ac9080ee-206b-4e1a-aa57-878ede529858"
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "7c80c6b8-b00f-4da8-a24a-0c773d8b48b0",
+        "evaluation_period": "1st Quarter",
+        "attendance_percentage": 67283,
+        "created_at": "2023-09-11T10:06:34.449Z",
+        "updated_at": "2023-09-11T13:52:48.881Z",
+        "student_id": "4443ba04-ff3d-43cc-a917-2156ffb4195b"
+      },
+      {
+        "id": "621cefee-3ea3-4652-91e4-ea4e31b6db06",
+        "evaluation_period": "2nd Quarter",
+        "attendance_percentage": 31539,
+        "created_at": "2023-09-12T06:15:54.420Z",
+        "updated_at": "2023-09-12T01:53:22.560Z",
+        "student_id": "9c641040-d6fe-45d5-b406-2f2576c3f448"
+      },
+      {
+        "id": "5aed7534-a698-4d03-8553-16d224807197",
+        "evaluation_period": "Midterm",
+        "attendance_percentage": 14711,
+        "created_at": "2023-09-11T21:47:23.074Z",
+        "updated_at": "2023-09-12T02:11:42.111Z",
+        "student_id": "ac9080ee-206b-4e1a-aa57-878ede529858"
+      },
+      {
+        "id": "13a329da-661e-4ed0-ada2-700b9246eb96",
+        "evaluation_period": "3rd Quarter",
+        "attendance_percentage": 59571,
+        "created_at": "2023-09-11T13:20:22.423Z",
+        "updated_at": "2023-09-12T00:15:14.144Z",
+        "student_id": "ac9080ee-206b-4e1a-aa57-878ede529858"
+      },
+      {
+        "id": "cf2fb197-b14a-4389-b6e3-8096e0498a3d",
+        "evaluation_period": "Final",
+        "attendance_percentage": 60523,
+        "created_at": "2023-09-11T13:00:22.967Z",
+        "updated_at": "2023-09-11T20:27:09.193Z",
+        "student_id": "9c641040-d6fe-45d5-b406-2f2576c3f448"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "12ab53f0-5223-4e06-9bf2-753f2a777e90",
+        "date": "2023-09-12T02:01:55.339Z",
+        "status": "Present",
+        "created_at": "2023-09-12T04:30:22.321Z",
+        "updated_at": "2023-09-12T02:57:46.437Z",
+        "student_id": "7d5fa93d-b649-4874-ac8f-640aa99f7bfe"
+      },
+      {
+        "id": "1c7106e2-8327-4697-8047-a6a12532fbc0",
+        "date": "2023-09-12T07:27:40.807Z",
+        "status": "Absent",
+        "created_at": "2023-09-11T14:45:42.749Z",
+        "updated_at": "2023-09-11T08:34:23.107Z",
+        "student_id": "4985f0a6-57d8-4939-b398-42b83feca0bf"
+      },
+      {
+        "id": "76676388-3d19-4b53-99ec-7bbb6af44ae5",
+        "date": "2023-09-12T03:20:27.037Z",
+        "status": "Late",
+        "created_at": "2023-09-12T05:28:08.972Z",
+        "updated_at": "2023-09-11T16:40:12.546Z",
+        "student_id": "ac9080ee-206b-4e1a-aa57-878ede529858"
+      },
+      {
+        "id": "72a11b25-2622-4818-b4b6-7c2b15d2f155",
+        "date": "2023-09-11T23:38:00.845Z",
+        "status": "Excused",
+        "created_at": "2023-09-12T07:24:37.663Z",
+        "updated_at": "2023-09-11T22:47:20.430Z",
+        "student_id": "4985f0a6-57d8-4939-b398-42b83feca0bf"
+      },
+      {
+        "id": "8986a028-abc5-4a34-a91a-78b8e61e0689",
+        "date": "2023-09-11T14:47:08.016Z",
+        "status": "Tardy",
+        "created_at": "2023-09-11T14:52:47.081Z",
+        "updated_at": "2023-09-11T13:19:32.801Z",
+        "student_id": "9c641040-d6fe-45d5-b406-2f2576c3f448"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1114ae60-58ae-4208-acbd-f4d0827cceed",
+        "email": "Ian_Champlin45@hotmail.com",
+        "firstName": "Darren",
+        "lastName": "Williamson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/328.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5d49c6da-0663-4309-baab-229aee9d0be3",
+        "email": "Ephraim_Wunsch41@hotmail.com",
+        "firstName": "Flavio",
+        "lastName": "Rice",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/695.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dbbc365e-a3b7-434c-a0c5-ecc14fba8de8",
+        "email": "Donny3@gmail.com",
+        "firstName": "Julian",
+        "lastName": "Russel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35367408",
+        "tenantId": null
+      },
+      {
+        "reference": "76ebd499-2cc1-4bab-8cf7-1792bd32bdfd",
+        "email": "Cesar_Nicolas58@gmail.com",
+        "firstName": "Emmitt",
+        "lastName": "Leffler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93599699",
+        "tenantId": null
+      },
+      {
+        "reference": "f1406bad-388b-40ab-bc37-6474a5b6a956",
+        "email": "Jimmie.Stanton89@gmail.com",
+        "firstName": "Justina",
+        "lastName": "Jerde",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/879.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "student": [
+      {
+        "id": "de7d7f18-7ba9-4eea-a91c-42e495111f48",
+        "name": "Emily",
+        "birthdate": "2023-09-11T17:34:35.210Z",
+        "division": "Grade 5",
+        "group_name": "Science Club",
+        "created_at": "2023-09-12T00:01:01.208Z",
+        "updated_at": "2023-09-11T16:21:45.433Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "fbe1f173-f089-49f4-8ea0-1d5662b17f09",
+        "name": "Daniel",
+        "birthdate": "2023-09-12T07:20:30.057Z",
+        "division": "Grade 8",
+        "group_name": "Chess Club",
+        "created_at": "2023-09-11T21:26:15.112Z",
+        "updated_at": "2023-09-11T21:36:19.286Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "f47bda4a-3e1f-496f-ae8d-5f1d7cde189b",
+        "name": "Olivia",
+        "birthdate": "2023-09-12T03:53:45.817Z",
+        "division": "Grade 3",
+        "group_name": "Art Club",
+        "created_at": "2023-09-11T21:58:14.586Z",
+        "updated_at": "2023-09-11T22:03:07.052Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "74bf9043-9fd2-4f9d-9675-49910b827904",
+        "name": "Jacob",
+        "birthdate": "2023-09-12T06:21:51.563Z",
+        "division": "Grade 6",
+        "group_name": "Math Club",
+        "created_at": "2023-09-11T12:30:21.397Z",
+        "updated_at": "2023-09-12T07:20:33.536Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "6fc1b01d-8a28-4e11-a042-f1ba02371ce4",
+        "name": "Sophia",
+        "birthdate": "2023-09-11T20:43:46.322Z",
+        "division": "Grade 2",
+        "group_name": "Robotics Club",
+        "created_at": "2023-09-11T08:16:41.473Z",
+        "updated_at": "2023-09-11T17:17:10.882Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "leave": [
+      {
+        "id": "3212f02c-f4fb-40a0-940b-fc8f8334834f",
+        "start_date": "2023-09-11T17:15:18.904Z",
+        "end_date": "2023-09-12T00:26:28.660Z",
+        "reason": "Family emergency",
+        "created_at": "2023-09-11T15:26:45.273Z",
+        "updated_at": "2023-09-11T09:24:47.576Z",
+        "student_id": "6fc1b01d-8a28-4e11-a042-f1ba02371ce4"
+      },
+      {
+        "id": "02eef311-50a3-4111-8b15-e870bb5b0c2a",
+        "start_date": "2023-09-11T15:26:12.637Z",
+        "end_date": "2023-09-11T11:53:30.760Z",
+        "reason": "Medical appointment",
+        "created_at": "2023-09-11T13:36:42.362Z",
+        "updated_at": "2023-09-12T04:26:52.693Z",
+        "student_id": "6fc1b01d-8a28-4e11-a042-f1ba02371ce4"
+      },
+      {
+        "id": "a4b77cd6-5d2a-4a91-ae73-23eeeac5e31d",
+        "start_date": "2023-09-11T13:36:09.437Z",
+        "end_date": "2023-09-11T12:22:59.430Z",
+        "reason": "Personal vacation",
+        "created_at": "2023-09-11T14:09:46.361Z",
+        "updated_at": "2023-09-11T22:35:19.386Z",
+        "student_id": "fbe1f173-f089-49f4-8ea0-1d5662b17f09"
+      },
+      {
+        "id": "bd56f5fa-6da9-44c4-b44d-0a431f9d84b7",
+        "start_date": "2023-09-12T01:02:01.642Z",
+        "end_date": "2023-09-11T20:56:46.806Z",
+        "reason": "Attending a conference",
+        "created_at": "2023-09-11T19:20:34.803Z",
+        "updated_at": "2023-09-11T09:12:18.990Z",
+        "student_id": "74bf9043-9fd2-4f9d-9675-49910b827904"
+      },
+      {
+        "id": "97bc7511-e87b-4c51-b240-8dc3f571c2fd",
+        "start_date": "2023-09-12T02:49:19.232Z",
+        "end_date": "2023-09-11T22:05:35.215Z",
+        "reason": "Religious observance",
+        "created_at": "2023-09-11T09:45:45.411Z",
+        "updated_at": "2023-09-11T19:13:54.577Z",
+        "student_id": "74bf9043-9fd2-4f9d-9675-49910b827904"
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "1e626f58-03e9-4d33-ac3b-f2f019a425ef",
+        "evaluation_period": "Quarter 1",
+        "attendance_percentage": 75876,
+        "created_at": "2023-09-11T13:33:24.900Z",
+        "updated_at": "2023-09-11T08:14:21.089Z",
+        "student_id": "de7d7f18-7ba9-4eea-a91c-42e495111f48"
+      },
+      {
+        "id": "a604b261-844f-42ae-a20f-37167d223409",
+        "evaluation_period": "Semester 2",
+        "attendance_percentage": 34985,
+        "created_at": "2023-09-11T20:19:23.471Z",
+        "updated_at": "2023-09-12T07:04:18.691Z",
+        "student_id": "fbe1f173-f089-49f4-8ea0-1d5662b17f09"
+      },
+      {
+        "id": "c909ef9f-ba83-422b-be59-deb014be9e95",
+        "evaluation_period": "Final exams",
+        "attendance_percentage": 5115,
+        "created_at": "2023-09-12T02:44:24.536Z",
+        "updated_at": "2023-09-12T01:04:48.360Z",
+        "student_id": "fbe1f173-f089-49f4-8ea0-1d5662b17f09"
+      },
+      {
+        "id": "4f728732-f5c7-4d24-8304-a23b671e2988",
+        "evaluation_period": "Midterm assessment",
+        "attendance_percentage": 70829,
+        "created_at": "2023-09-11T13:44:30.066Z",
+        "updated_at": "2023-09-11T10:28:17.760Z",
+        "student_id": "de7d7f18-7ba9-4eea-a91c-42e495111f48"
+      },
+      {
+        "id": "46af5079-aaf4-46f3-b800-5551063b6d38",
+        "evaluation_period": "End of year evaluation",
+        "attendance_percentage": 2875,
+        "created_at": "2023-09-11T15:18:51.204Z",
+        "updated_at": "2023-09-11T20:07:31.313Z",
+        "student_id": "74bf9043-9fd2-4f9d-9675-49910b827904"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "c383444f-10cd-4fe8-b018-11917fd78c9d",
+        "date": "2023-09-11T08:06:18.908Z",
+        "status": "Present",
+        "created_at": "2023-09-11T17:05:36.316Z",
+        "updated_at": "2023-09-12T03:13:36.190Z",
+        "student_id": "f47bda4a-3e1f-496f-ae8d-5f1d7cde189b"
+      },
+      {
+        "id": "616a72fe-0080-40a7-a0e3-10a43b7abb5d",
+        "date": "2023-09-11T15:27:25.862Z",
+        "status": "Absent",
+        "created_at": "2023-09-12T07:36:17.318Z",
+        "updated_at": "2023-09-12T02:07:09.582Z",
+        "student_id": "de7d7f18-7ba9-4eea-a91c-42e495111f48"
+      },
+      {
+        "id": "88242f83-a252-49e0-93eb-844fa1224593",
+        "date": "2023-09-11T08:41:22.524Z",
+        "status": "Late",
+        "created_at": "2023-09-12T06:23:17.156Z",
+        "updated_at": "2023-09-12T04:07:39.879Z",
+        "student_id": "fbe1f173-f089-49f4-8ea0-1d5662b17f09"
+      },
+      {
+        "id": "f844f7e6-c365-44a4-818c-68e8ea221b5b",
+        "date": "2023-09-12T01:37:18.697Z",
+        "status": "Excused",
+        "created_at": "2023-09-11T12:41:15.757Z",
+        "updated_at": "2023-09-11T21:57:00.390Z",
+        "student_id": "f47bda4a-3e1f-496f-ae8d-5f1d7cde189b"
+      },
+      {
+        "id": "e1333ef0-789f-4f80-bac1-6e32ebed71e9",
+        "date": "2023-09-12T00:00:03.757Z",
+        "status": "Tardy",
+        "created_at": "2023-09-12T05:42:40.396Z",
+        "updated_at": "2023-09-11T22:45:57.892Z",
+        "student_id": "74bf9043-9fd2-4f9d-9675-49910b827904"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ffc41a38-2581-4415-8f32-96558c1927f7",
+        "email": "Orpha63@yahoo.com",
+        "firstName": "Amelia",
+        "lastName": "Gutkowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/326.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b02afd8a-f4d1-40d8-a78f-d6e9e6eb2231",
+        "email": "Rafael82@hotmail.com",
+        "firstName": "Margaretta",
+        "lastName": "Bailey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60313770",
+        "tenantId": null
+      },
+      {
+        "reference": "f2b19c6f-bf61-4cb1-9b17-47d715ef495c",
+        "email": "Ellsworth_Littel14@yahoo.com",
+        "firstName": "Ricardo",
+        "lastName": "Hauck",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46639543",
+        "tenantId": null
+      },
+      {
+        "reference": "e7d175a1-3f14-450a-92db-08164f9658e5",
+        "email": "Georgianna77@hotmail.com",
+        "firstName": "Myra",
+        "lastName": "Gottlieb",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/418.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "281943ef-9cef-40f3-abe2-c8a3b0f8ee74",
+        "email": "Mathew_Langworth@yahoo.com",
+        "firstName": "Margaret",
+        "lastName": "Bogan-Funk",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1047.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "student": [
+      {
+        "id": "a4188670-026d-4775-b442-31f6f61bedb0",
+        "name": "Alex",
+        "birthdate": "2023-09-11T12:11:54.592Z",
+        "division": "Grade 5",
+        "group_name": "Science Club",
+        "created_at": "2023-09-12T06:22:00.632Z",
+        "updated_at": "2023-09-11T23:14:09.592Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "0184de7c-3aad-4be3-9369-c79770395062",
+        "name": "Emily",
+        "birthdate": "2023-09-11T15:14:48.848Z",
+        "division": "Grade 8",
+        "group_name": "Chess Club",
+        "created_at": "2023-09-11T19:40:12.336Z",
+        "updated_at": "2023-09-11T14:27:57.722Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "877294d2-d3f0-4a2d-aaaf-159d4c2aaf00",
+        "name": "Daniel",
+        "birthdate": "2023-09-12T02:35:04.808Z",
+        "division": "Grade 10",
+        "group_name": "Art Club",
+        "created_at": "2023-09-11T17:50:24.527Z",
+        "updated_at": "2023-09-11T20:08:27.101Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "de3bfd0f-fd60-4699-8d85-44db50fb57c6",
+        "name": "Olivia",
+        "birthdate": "2023-09-11T10:02:32.520Z",
+        "division": "Grade 3",
+        "group_name": "Music Club",
+        "created_at": "2023-09-11T22:01:26.043Z",
+        "updated_at": "2023-09-11T10:42:51.871Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "df56f670-bfc0-4b00-9f12-32944cd55bf1",
+        "name": "Ethan",
+        "birthdate": "2023-09-11T22:11:26.630Z",
+        "division": "Grade 6",
+        "group_name": "Sports Club",
+        "created_at": "2023-09-11T11:58:11.464Z",
+        "updated_at": "2023-09-12T01:05:21.800Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "leave": [
+      {
+        "id": "8d8023b3-ebdd-433e-b250-d5ceca5c3f8b",
+        "start_date": "2023-09-11T23:50:40.081Z",
+        "end_date": "2023-09-12T07:16:16.129Z",
+        "reason": "Family emergency",
+        "created_at": "2023-09-12T00:27:22.744Z",
+        "updated_at": "2023-09-11T22:20:50.292Z",
+        "student_id": "a4188670-026d-4775-b442-31f6f61bedb0"
+      },
+      {
+        "id": "967d9ddc-4be6-4e81-8146-e3dfa515dfdb",
+        "start_date": "2023-09-11T19:52:09.370Z",
+        "end_date": "2023-09-11T12:08:20.681Z",
+        "reason": "Medical appointment",
+        "created_at": "2023-09-11T14:39:43.654Z",
+        "updated_at": "2023-09-12T02:03:39.486Z",
+        "student_id": "de3bfd0f-fd60-4699-8d85-44db50fb57c6"
+      },
+      {
+        "id": "ca8fa227-b3db-4aea-bc55-8a6d696b0b23",
+        "start_date": "2023-09-12T07:31:59.685Z",
+        "end_date": "2023-09-11T14:49:51.390Z",
+        "reason": "Personal vacation",
+        "created_at": "2023-09-12T03:55:18.727Z",
+        "updated_at": "2023-09-11T15:47:56.832Z",
+        "student_id": "a4188670-026d-4775-b442-31f6f61bedb0"
+      },
+      {
+        "id": "01855e70-72af-45d3-9c90-aeee1fea87d0",
+        "start_date": "2023-09-11T13:52:09.655Z",
+        "end_date": "2023-09-11T20:18:14.274Z",
+        "reason": "Attending a conference",
+        "created_at": "2023-09-11T10:19:33.228Z",
+        "updated_at": "2023-09-12T04:12:19.996Z",
+        "student_id": "de3bfd0f-fd60-4699-8d85-44db50fb57c6"
+      },
+      {
+        "id": "84ac12e8-57d0-4b00-895a-4d1d23fb3ac9",
+        "start_date": "2023-09-11T20:29:27.737Z",
+        "end_date": "2023-09-12T04:25:53.454Z",
+        "reason": "Religious observance",
+        "created_at": "2023-09-12T03:02:19.795Z",
+        "updated_at": "2023-09-11T14:10:26.513Z",
+        "student_id": "0184de7c-3aad-4be3-9369-c79770395062"
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "7ab39aa2-1a6b-495f-a4ca-1543863afd9d",
+        "evaluation_period": "First Quarter",
+        "attendance_percentage": 9704,
+        "created_at": "2023-09-12T02:28:10.895Z",
+        "updated_at": "2023-09-12T01:23:11.016Z",
+        "student_id": "a4188670-026d-4775-b442-31f6f61bedb0"
+      },
+      {
+        "id": "22d09243-5d9b-45ac-b97e-f2c2ff43d2d1",
+        "evaluation_period": "Midterm",
+        "attendance_percentage": 8231,
+        "created_at": "2023-09-11T08:04:11.111Z",
+        "updated_at": "2023-09-11T09:19:29.681Z",
+        "student_id": "a4188670-026d-4775-b442-31f6f61bedb0"
+      },
+      {
+        "id": "c54fecde-20af-43e6-9f38-39c320e2958f",
+        "evaluation_period": "Finals",
+        "attendance_percentage": 52280,
+        "created_at": "2023-09-11T10:42:33.109Z",
+        "updated_at": "2023-09-11T08:50:14.247Z",
+        "student_id": "df56f670-bfc0-4b00-9f12-32944cd55bf1"
+      },
+      {
+        "id": "4a81b388-5d65-4d00-ab9b-19541e75e132",
+        "evaluation_period": "Annual Review",
+        "attendance_percentage": 66905,
+        "created_at": "2023-09-12T02:55:49.570Z",
+        "updated_at": "2023-09-11T07:43:58.021Z",
+        "student_id": "0184de7c-3aad-4be3-9369-c79770395062"
+      },
+      {
+        "id": "81b3cc9c-bfb3-46c6-bacd-b64af134f94e",
+        "evaluation_period": "Progress Report",
+        "attendance_percentage": 73996,
+        "created_at": "2023-09-11T08:11:04.125Z",
+        "updated_at": "2023-09-11T09:53:42.836Z",
+        "student_id": "df56f670-bfc0-4b00-9f12-32944cd55bf1"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "80f034cf-a7fd-4b22-9ada-db25a858edb3",
+        "date": "2023-09-11T23:26:28.052Z",
+        "status": "Present",
+        "created_at": "2023-09-11T10:44:58.947Z",
+        "updated_at": "2023-09-11T14:24:23.657Z",
+        "student_id": "df56f670-bfc0-4b00-9f12-32944cd55bf1"
+      },
+      {
+        "id": "8e8e0a45-8a71-4fb7-9c6d-d14573b3714a",
+        "date": "2023-09-11T12:09:27.317Z",
+        "status": "Absent",
+        "created_at": "2023-09-12T02:34:25.598Z",
+        "updated_at": "2023-09-11T23:37:45.005Z",
+        "student_id": "a4188670-026d-4775-b442-31f6f61bedb0"
+      },
+      {
+        "id": "30dd96d6-deec-4b8a-850a-f47fe0fbf8f0",
+        "date": "2023-09-11T09:10:05.192Z",
+        "status": "Tardy",
+        "created_at": "2023-09-11T23:11:41.200Z",
+        "updated_at": "2023-09-11T08:56:30.747Z",
+        "student_id": "df56f670-bfc0-4b00-9f12-32944cd55bf1"
+      },
+      {
+        "id": "89196a81-7bca-48b7-90bc-0c680366c17e",
+        "date": "2023-09-11T16:54:11.372Z",
+        "status": "Excused",
+        "created_at": "2023-09-11T22:36:38.442Z",
+        "updated_at": "2023-09-11T23:27:40.678Z",
+        "student_id": "a4188670-026d-4775-b442-31f6f61bedb0"
+      },
+      {
+        "id": "fe665f44-0b38-4205-8908-b84ae18a1a99",
+        "date": "2023-09-11T22:22:24.108Z",
+        "status": "Late",
+        "created_at": "2023-09-11T09:23:07.756Z",
+        "updated_at": "2023-09-11T13:33:01.940Z",
+        "student_id": "de3bfd0f-fd60-4699-8d85-44db50fb57c6"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "aafa2cc6-2bea-4f09-9687-f3c3d6b45173",
+        "email": "Darrick.Weber@hotmail.com",
+        "firstName": "Freeman",
+        "lastName": "Streich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49847288",
+        "tenantId": null
+      },
+      {
+        "reference": "aec09b88-64af-49c5-9740-83d537b545ba",
+        "email": "Zita.Marquardt57@hotmail.com",
+        "firstName": "Eunice",
+        "lastName": "Conn-Mosciski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/438.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "60d48439-191c-48a3-bd3a-636cf0dfd93b",
+        "email": "Gia.Pacocha@gmail.com",
+        "firstName": "Kolby",
+        "lastName": "Herzog",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/790.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5c94618f-511c-46cd-afdb-4759bd4ee934",
+        "email": "Vallie.Blick@hotmail.com",
+        "firstName": "Leo",
+        "lastName": "Runolfsdottir",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84979840",
+        "tenantId": null
+      },
+      {
+        "reference": "7d922e54-3911-4ad4-af82-cd2563365cdc",
+        "email": "Isabelle_Johnston@gmail.com",
+        "firstName": "Margie",
+        "lastName": "Terry",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/191.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "student": [
+      {
+        "id": "4d7cda77-3066-4b41-9abf-60bb3f090067",
+        "name": "John Doe",
+        "birthdate": "2023-09-12T02:28:05.072Z",
+        "division": "A",
+        "group_name": "Science Club",
+        "created_at": "2023-09-11T14:25:23.698Z",
+        "updated_at": "2023-09-11T12:33:58.276Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "d12b5824-64cb-4c07-a749-889977d84b80",
+        "name": "Jane Smith",
+        "birthdate": "2023-09-11T13:53:25.188Z",
+        "division": "B",
+        "group_name": "Chess Club",
+        "created_at": "2023-09-11T16:01:20.454Z",
+        "updated_at": "2023-09-11T22:28:26.584Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "b018788f-c1d5-487f-bf6a-c912a0318978",
+        "name": "Michael Brown",
+        "birthdate": "2023-09-11T16:41:57.709Z",
+        "division": "C",
+        "group_name": "Drama Club",
+        "created_at": "2023-09-12T05:14:12.837Z",
+        "updated_at": "2023-09-11T20:22:40.471Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "e0f4959b-73b3-41c9-94dd-17ab7c15920e",
+        "name": "Sarah Jones",
+        "birthdate": "2023-09-11T12:27:39.835Z",
+        "division": "D",
+        "group_name": "Debate Club",
+        "created_at": "2023-09-11T19:50:10.367Z",
+        "updated_at": "2023-09-12T01:57:37.395Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "a8e34d23-721d-4b38-8daa-dcdc1a6cc608",
+        "name": "David Wilson",
+        "birthdate": "2023-09-11T11:41:26.234Z",
+        "division": "E",
+        "group_name": "Art Club",
+        "created_at": "2023-09-11T10:38:33.279Z",
+        "updated_at": "2023-09-11T18:39:06.435Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "leave": [
+      {
+        "id": "125d76c0-cbae-4a7e-81d1-273cc1b5530d",
+        "start_date": "2023-09-12T06:55:11.203Z",
+        "end_date": "2023-09-11T20:36:11.017Z",
+        "reason": "Family emergency",
+        "created_at": "2023-09-11T15:43:20.804Z",
+        "updated_at": "2023-09-11T07:54:46.385Z",
+        "student_id": "d12b5824-64cb-4c07-a749-889977d84b80"
+      },
+      {
+        "id": "7cd54e44-8173-460c-9200-eadae37e9509",
+        "start_date": "2023-09-11T14:28:42.015Z",
+        "end_date": "2023-09-11T12:18:33.248Z",
+        "reason": "Medical appointment",
+        "created_at": "2023-09-12T03:49:21.497Z",
+        "updated_at": "2023-09-11T19:21:58.629Z",
+        "student_id": "e0f4959b-73b3-41c9-94dd-17ab7c15920e"
+      },
+      {
+        "id": "090e476d-50c7-45b2-9a3c-649114df3ed5",
+        "start_date": "2023-09-11T08:22:22.677Z",
+        "end_date": "2023-09-12T07:20:30.609Z",
+        "reason": "Personal vacation",
+        "created_at": "2023-09-11T16:37:34.788Z",
+        "updated_at": "2023-09-12T03:11:13.925Z",
+        "student_id": "e0f4959b-73b3-41c9-94dd-17ab7c15920e"
+      },
+      {
+        "id": "68214a10-3160-4fe1-85d8-961e85ebc2af",
+        "start_date": "2023-09-11T08:02:54.344Z",
+        "end_date": "2023-09-11T13:24:02.599Z",
+        "reason": "Attending a conference",
+        "created_at": "2023-09-11T15:21:57.896Z",
+        "updated_at": "2023-09-11T18:37:22.925Z",
+        "student_id": "a8e34d23-721d-4b38-8daa-dcdc1a6cc608"
+      },
+      {
+        "id": "33c20283-45fd-4872-94d4-948c3cf777da",
+        "start_date": "2023-09-11T21:54:16.254Z",
+        "end_date": "2023-09-12T03:13:14.036Z",
+        "reason": "Religious observance",
+        "created_at": "2023-09-12T04:09:48.051Z",
+        "updated_at": "2023-09-11T11:48:30.188Z",
+        "student_id": "4d7cda77-3066-4b41-9abf-60bb3f090067"
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "2ad66fac-329f-4e3d-981c-15a5a3890313",
+        "evaluation_period": "Quarter 1",
+        "attendance_percentage": 51758,
+        "created_at": "2023-09-12T06:39:18.763Z",
+        "updated_at": "2023-09-12T01:18:48.229Z",
+        "student_id": "a8e34d23-721d-4b38-8daa-dcdc1a6cc608"
+      },
+      {
+        "id": "4dfa14d4-53fc-439f-8986-e48f1c5524a2",
+        "evaluation_period": "Quarter 2",
+        "attendance_percentage": 39970,
+        "created_at": "2023-09-11T15:30:48.043Z",
+        "updated_at": "2023-09-11T10:43:30.988Z",
+        "student_id": "a8e34d23-721d-4b38-8daa-dcdc1a6cc608"
+      },
+      {
+        "id": "6b9e898f-aa18-40e1-b9d5-665adc379f2e",
+        "evaluation_period": "Midterm",
+        "attendance_percentage": 21002,
+        "created_at": "2023-09-11T09:38:39.483Z",
+        "updated_at": "2023-09-11T19:57:40.402Z",
+        "student_id": "a8e34d23-721d-4b38-8daa-dcdc1a6cc608"
+      },
+      {
+        "id": "791ba8f9-9f8a-432a-a169-09ab01ed333b",
+        "evaluation_period": "Final",
+        "attendance_percentage": 12033,
+        "created_at": "2023-09-11T10:06:15.352Z",
+        "updated_at": "2023-09-12T00:35:40.046Z",
+        "student_id": "b018788f-c1d5-487f-bf6a-c912a0318978"
+      },
+      {
+        "id": "9deb6488-b62d-4105-9ed8-7d6d42f37f36",
+        "evaluation_period": "Annual",
+        "attendance_percentage": 36750,
+        "created_at": "2023-09-11T16:10:35.942Z",
+        "updated_at": "2023-09-11T13:01:54.776Z",
+        "student_id": "e0f4959b-73b3-41c9-94dd-17ab7c15920e"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "d988c0c0-831a-426a-9b7f-1a11464b0fac",
+        "date": "2023-09-12T02:38:55.181Z",
+        "status": "Present",
+        "created_at": "2023-09-11T19:48:51.630Z",
+        "updated_at": "2023-09-11T16:36:03.148Z",
+        "student_id": "4d7cda77-3066-4b41-9abf-60bb3f090067"
+      },
+      {
+        "id": "f36a083a-0da3-4145-aa18-ac09876c6ca0",
+        "date": "2023-09-11T14:46:59.732Z",
+        "status": "Absent",
+        "created_at": "2023-09-11T17:55:44.255Z",
+        "updated_at": "2023-09-12T02:07:05.350Z",
+        "student_id": "e0f4959b-73b3-41c9-94dd-17ab7c15920e"
+      },
+      {
+        "id": "1a5f1520-0682-4bce-a96c-51143fb3ad08",
+        "date": "2023-09-11T14:58:18.318Z",
+        "status": "Late",
+        "created_at": "2023-09-11T22:33:05.192Z",
+        "updated_at": "2023-09-11T07:53:30.569Z",
+        "student_id": "a8e34d23-721d-4b38-8daa-dcdc1a6cc608"
+      },
+      {
+        "id": "9aa2f7d3-09f0-48e6-8ecb-74faa08e1002",
+        "date": "2023-09-12T00:09:41.405Z",
+        "status": "Excused",
+        "created_at": "2023-09-11T08:02:31.467Z",
+        "updated_at": "2023-09-11T10:25:48.984Z",
+        "student_id": "d12b5824-64cb-4c07-a749-889977d84b80"
+      },
+      {
+        "id": "f178aee8-063b-4026-b125-9384709d4b4e",
+        "date": "2023-09-11T10:55:31.418Z",
+        "status": "Tardy",
+        "created_at": "2023-09-11T23:41:05.096Z",
+        "updated_at": "2023-09-12T07:21:11.447Z",
+        "student_id": "e0f4959b-73b3-41c9-94dd-17ab7c15920e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "610356e3-d945-4785-abe3-9a854a3545b2",
+        "email": "Gerald15@hotmail.com",
+        "firstName": "Sister",
+        "lastName": "Hagenes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84893838",
+        "tenantId": null
+      },
+      {
+        "reference": "12a2cc0f-c0a5-4647-a13f-8cbad912476f",
+        "email": "Jedediah48@hotmail.com",
+        "firstName": "Emilie",
+        "lastName": "Hodkiewicz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78554791",
+        "tenantId": null
+      },
+      {
+        "reference": "b3f2467b-8040-478c-9d2f-d4ae4b09c84a",
+        "email": "Josianne_Dicki68@hotmail.com",
+        "firstName": "Olin",
+        "lastName": "Will",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1031.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7f59184c-87a3-42e0-9239-cfdcbf84507d",
+        "email": "Ransom_Towne51@gmail.com",
+        "firstName": "Icie",
+        "lastName": "Weissnat",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/811.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c51524d8-aff8-4bd7-a3da-a4c2cb1fb915",
+        "email": "Bo15@hotmail.com",
+        "firstName": "Christiana",
+        "lastName": "Kovacek",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/694.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "student": [
+      {
+        "id": "6b02d3aa-b861-4f30-b4f8-b227c4153f9b",
+        "name": "Alex Johnson",
+        "birthdate": "2023-09-11T15:29:33.570Z",
+        "division": "Grade 9",
+        "group_name": "Science Club",
+        "created_at": "2023-09-11T21:14:46.489Z",
+        "updated_at": "2023-09-11T08:04:19.711Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "f771f5da-f2e7-4453-921c-47f1882451c4",
+        "name": "Emily Davis",
+        "birthdate": "2023-09-11T19:49:16.702Z",
+        "division": "Grade 10",
+        "group_name": "Chess Club",
+        "created_at": "2023-09-11T11:34:00.816Z",
+        "updated_at": "2023-09-12T06:38:38.019Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "788687ab-d609-4636-832d-1879e48e502a",
+        "name": "Ethan Martinez",
+        "birthdate": "2023-09-11T09:20:53.714Z",
+        "division": "Grade 11",
+        "group_name": "Art Club",
+        "created_at": "2023-09-11T15:41:17.656Z",
+        "updated_at": "2023-09-12T00:27:13.271Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "7d800590-4ad3-44f6-95cf-e34fbcce8c66",
+        "name": "Olivia Thompson",
+        "birthdate": "2023-09-11T15:14:09.618Z",
+        "division": "Grade 12",
+        "group_name": "Debate Club",
+        "created_at": "2023-09-11T08:26:21.914Z",
+        "updated_at": "2023-09-11T10:09:07.865Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "663991e1-163b-4ddb-9fda-63f0caa1050d",
+        "name": "Jacob Anderson",
+        "birthdate": "2023-09-11T15:38:34.702Z",
+        "division": "Grade 8",
+        "group_name": "Music Club",
+        "created_at": "2023-09-11T19:14:40.526Z",
+        "updated_at": "2023-09-11T16:58:29.442Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "leave": [
+      {
+        "id": "5f0206cf-6b84-4382-8de5-e013e59dc6ef",
+        "start_date": "2023-09-11T14:07:39.228Z",
+        "end_date": "2023-09-11T08:22:45.644Z",
+        "reason": "Family emergency",
+        "created_at": "2023-09-11T20:34:35.632Z",
+        "updated_at": "2023-09-11T21:07:23.569Z",
+        "student_id": "788687ab-d609-4636-832d-1879e48e502a"
+      },
+      {
+        "id": "63c8ef7b-e1cb-4f0b-81b1-63bc12f374ad",
+        "start_date": "2023-09-11T20:08:48.671Z",
+        "end_date": "2023-09-11T08:19:07.694Z",
+        "reason": "Medical appointment",
+        "created_at": "2023-09-11T09:23:52.435Z",
+        "updated_at": "2023-09-12T04:56:13.494Z",
+        "student_id": "663991e1-163b-4ddb-9fda-63f0caa1050d"
+      },
+      {
+        "id": "ebabee43-a89f-45bc-b051-ab4dafe4ec62",
+        "start_date": "2023-09-11T18:29:51.291Z",
+        "end_date": "2023-09-12T07:05:03.455Z",
+        "reason": "Vacation",
+        "created_at": "2023-09-11T12:12:39.811Z",
+        "updated_at": "2023-09-11T14:20:49.686Z",
+        "student_id": "6b02d3aa-b861-4f30-b4f8-b227c4153f9b"
+      },
+      {
+        "id": "29cccf4d-d570-46da-a90a-da6e4a63c773",
+        "start_date": "2023-09-12T05:48:01.374Z",
+        "end_date": "2023-09-11T18:18:09.424Z",
+        "reason": "Personal day",
+        "created_at": "2023-09-11T18:28:22.474Z",
+        "updated_at": "2023-09-12T05:56:19.201Z",
+        "student_id": "f771f5da-f2e7-4453-921c-47f1882451c4"
+      },
+      {
+        "id": "f052da65-4b19-4c74-984d-2c9195b9c342",
+        "start_date": "2023-09-12T04:09:33.783Z",
+        "end_date": "2023-09-11T22:21:25.227Z",
+        "reason": "Religious observance",
+        "created_at": "2023-09-12T06:40:33.648Z",
+        "updated_at": "2023-09-11T10:48:45.366Z",
+        "student_id": "788687ab-d609-4636-832d-1879e48e502a"
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "b964e505-ff8c-4897-8c4f-7227766bbb22",
+        "evaluation_period": "1st Quarter",
+        "attendance_percentage": 75580,
+        "created_at": "2023-09-12T01:55:38.500Z",
+        "updated_at": "2023-09-11T08:21:46.784Z",
+        "student_id": "663991e1-163b-4ddb-9fda-63f0caa1050d"
+      },
+      {
+        "id": "c2a32efd-bdf5-470f-8044-affacca38f9c",
+        "evaluation_period": "2nd Quarter",
+        "attendance_percentage": 84540,
+        "created_at": "2023-09-11T18:52:56.820Z",
+        "updated_at": "2023-09-11T23:00:27.017Z",
+        "student_id": "7d800590-4ad3-44f6-95cf-e34fbcce8c66"
+      },
+      {
+        "id": "bf988cb9-3e54-4370-9ccc-11dd1e9d40be",
+        "evaluation_period": "Mid-Year",
+        "attendance_percentage": 71466,
+        "created_at": "2023-09-11T23:28:15.954Z",
+        "updated_at": "2023-09-11T23:24:21.386Z",
+        "student_id": "f771f5da-f2e7-4453-921c-47f1882451c4"
+      },
+      {
+        "id": "aa5c6804-0e51-4cd1-89c2-b75aaddc62b9",
+        "evaluation_period": "3rd Quarter",
+        "attendance_percentage": 15752,
+        "created_at": "2023-09-12T02:43:48.522Z",
+        "updated_at": "2023-09-11T09:59:56.285Z",
+        "student_id": "663991e1-163b-4ddb-9fda-63f0caa1050d"
+      },
+      {
+        "id": "42bac378-fde8-4470-b90a-888707858dc9",
+        "evaluation_period": "4th Quarter",
+        "attendance_percentage": 32867,
+        "created_at": "2023-09-11T15:32:51.538Z",
+        "updated_at": "2023-09-11T09:30:20.369Z",
+        "student_id": "6b02d3aa-b861-4f30-b4f8-b227c4153f9b"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "c7103c31-0c00-4039-acfb-3e5937cfbe9e",
+        "date": "2023-09-12T03:53:07.573Z",
+        "status": "Present",
+        "created_at": "2023-09-12T04:21:23.150Z",
+        "updated_at": "2023-09-12T04:28:00.596Z",
+        "student_id": "f771f5da-f2e7-4453-921c-47f1882451c4"
+      },
+      {
+        "id": "1931c6c0-0f3c-4288-beab-4d0249b95827",
+        "date": "2023-09-12T05:54:25.224Z",
+        "status": "Absent",
+        "created_at": "2023-09-12T07:27:02.729Z",
+        "updated_at": "2023-09-11T09:34:56.078Z",
+        "student_id": "7d800590-4ad3-44f6-95cf-e34fbcce8c66"
+      },
+      {
+        "id": "4e481310-83e8-4088-af48-434e37b57add",
+        "date": "2023-09-12T04:08:38.275Z",
+        "status": "Late",
+        "created_at": "2023-09-11T18:59:51.385Z",
+        "updated_at": "2023-09-11T13:50:38.808Z",
+        "student_id": "663991e1-163b-4ddb-9fda-63f0caa1050d"
+      },
+      {
+        "id": "d4d07f27-729c-4449-9e69-3494e8e2e853",
+        "date": "2023-09-12T02:03:51.218Z",
+        "status": "Excused",
+        "created_at": "2023-09-12T07:17:46.876Z",
+        "updated_at": "2023-09-11T18:06:23.155Z",
+        "student_id": "f771f5da-f2e7-4453-921c-47f1882451c4"
+      },
+      {
+        "id": "ad9f1e1a-1847-4a80-ae1c-31e26b69f927",
+        "date": "2023-09-11T14:55:17.755Z",
+        "status": "Tardy",
+        "created_at": "2023-09-12T01:03:43.944Z",
+        "updated_at": "2023-09-11T22:41:44.638Z",
+        "student_id": "788687ab-d609-4636-832d-1879e48e502a"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3be02836-667f-4e2b-b557-40a123be38ac",
+        "email": "Austen73@hotmail.com",
+        "firstName": "Darien",
+        "lastName": "Krajcik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29308044",
+        "tenantId": null
+      },
+      {
+        "reference": "493ceedf-6c5e-41d5-92c3-5e7f8872bfc4",
+        "email": "Randi.Wiza@hotmail.com",
+        "firstName": "Sonya",
+        "lastName": "Smith",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70037488",
+        "tenantId": null
+      },
+      {
+        "reference": "7de2924b-9d08-40d4-b9e0-14582a450978",
+        "email": "Berry_OKeefe@hotmail.com",
+        "firstName": "Jorge",
+        "lastName": "Turcotte",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/556.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ab2e6068-0cdc-4931-9587-6da38469ef95",
+        "email": "Trey_Rippin-Dickinson@gmail.com",
+        "firstName": "Leola",
+        "lastName": "Kautzer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98179075",
+        "tenantId": null
+      },
+      {
+        "reference": "099aee6a-2076-4bcf-8592-9b12598d10e5",
+        "email": "Calista_Kovacek@yahoo.com",
+        "firstName": "Eduardo",
+        "lastName": "Kihn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/244.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "student": [
+      {
+        "id": "f7bf75a0-c94a-4b93-9a0e-b8210a326278",
+        "name": "Emily Johnson",
+        "birthdate": "2023-09-12T00:37:00.165Z",
+        "division": "Grade 5",
+        "group_name": "Science Club",
+        "created_at": "2023-09-11T10:17:59.161Z",
+        "updated_at": "2023-09-12T04:37:54.513Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "76bdeb5f-dfc5-417e-b782-960a0ffdb5c4",
+        "name": "Daniel Anderson",
+        "birthdate": "2023-09-12T06:17:59.118Z",
+        "division": "Grade 8",
+        "group_name": "Chess Club",
+        "created_at": "2023-09-12T00:52:11.685Z",
+        "updated_at": "2023-09-12T05:15:17.331Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "b25b4371-fc98-46f6-be64-5355a76b6460",
+        "name": "Olivia Thompson",
+        "birthdate": "2023-09-12T04:08:37.446Z",
+        "division": "Grade 3",
+        "group_name": "Art Club",
+        "created_at": "2023-09-11T23:17:12.706Z",
+        "updated_at": "2023-09-11T23:21:37.945Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "9280bd58-a044-41cd-8d5a-90baf03f14dd",
+        "name": "James Davis",
+        "birthdate": "2023-09-12T05:57:42.238Z",
+        "division": "Grade 6",
+        "group_name": "Music Club",
+        "created_at": "2023-09-12T05:29:41.311Z",
+        "updated_at": "2023-09-12T04:57:52.243Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "a1e7c988-b994-4193-9d4b-94dbbba84740",
+        "name": "Sophia Martinez",
+        "birthdate": "2023-09-11T15:52:50.538Z",
+        "division": "Grade 2",
+        "group_name": "Sports Club",
+        "created_at": "2023-09-12T02:51:56.949Z",
+        "updated_at": "2023-09-11T09:08:41.767Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "leave": [
+      {
+        "id": "3c16b86c-50c0-4c35-b04b-7b55b82ff00c",
+        "start_date": "2023-09-11T18:47:06.388Z",
+        "end_date": "2023-09-11T21:41:56.421Z",
+        "reason": "Family emergency",
+        "created_at": "2023-09-11T23:55:09.159Z",
+        "updated_at": "2023-09-11T18:38:01.810Z",
+        "student_id": "b25b4371-fc98-46f6-be64-5355a76b6460"
+      },
+      {
+        "id": "405a0c87-5c82-42e1-8ce6-1f9007501092",
+        "start_date": "2023-09-12T07:10:53.689Z",
+        "end_date": "2023-09-11T09:53:38.127Z",
+        "reason": "Medical appointment",
+        "created_at": "2023-09-12T06:25:42.373Z",
+        "updated_at": "2023-09-11T13:46:56.843Z",
+        "student_id": "f7bf75a0-c94a-4b93-9a0e-b8210a326278"
+      },
+      {
+        "id": "71fff9a5-967d-4683-b613-8427f5193690",
+        "start_date": "2023-09-11T22:01:55.268Z",
+        "end_date": "2023-09-11T20:31:06.238Z",
+        "reason": "Vacation",
+        "created_at": "2023-09-12T02:09:53.146Z",
+        "updated_at": "2023-09-12T05:15:45.684Z",
+        "student_id": "76bdeb5f-dfc5-417e-b782-960a0ffdb5c4"
+      },
+      {
+        "id": "34f7b5f8-d018-419d-b28d-f7530176b972",
+        "start_date": "2023-09-11T23:34:32.396Z",
+        "end_date": "2023-09-12T01:36:04.444Z",
+        "reason": "Personal day",
+        "created_at": "2023-09-11T23:11:05.387Z",
+        "updated_at": "2023-09-11T10:52:35.284Z",
+        "student_id": "76bdeb5f-dfc5-417e-b782-960a0ffdb5c4"
+      },
+      {
+        "id": "31d4eb67-a5b0-4b76-970f-c1a363246865",
+        "start_date": "2023-09-12T01:00:22.270Z",
+        "end_date": "2023-09-11T19:01:59.729Z",
+        "reason": "Attending a conference",
+        "created_at": "2023-09-11T21:20:22.799Z",
+        "updated_at": "2023-09-11T23:14:13.760Z",
+        "student_id": "b25b4371-fc98-46f6-be64-5355a76b6460"
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "da0b7c51-6d7f-45f6-bcc4-1570c6916edf",
+        "evaluation_period": "Quarter 1",
+        "attendance_percentage": 86201,
+        "created_at": "2023-09-11T11:41:31.848Z",
+        "updated_at": "2023-09-11T20:48:10.065Z",
+        "student_id": "76bdeb5f-dfc5-417e-b782-960a0ffdb5c4"
+      },
+      {
+        "id": "220c1c69-c99a-421f-bf35-e44f32729e67",
+        "evaluation_period": "Semester 2",
+        "attendance_percentage": 47464,
+        "created_at": "2023-09-11T12:56:16.895Z",
+        "updated_at": "2023-09-11T14:28:01.098Z",
+        "student_id": "f7bf75a0-c94a-4b93-9a0e-b8210a326278"
+      },
+      {
+        "id": "50c78106-2800-4a1e-83bf-7fbf9b610add",
+        "evaluation_period": "Trimester 3",
+        "attendance_percentage": 38764,
+        "created_at": "2023-09-11T16:09:44.449Z",
+        "updated_at": "2023-09-11T20:06:56.190Z",
+        "student_id": "76bdeb5f-dfc5-417e-b782-960a0ffdb5c4"
+      },
+      {
+        "id": "636c5cc7-cdd4-458d-bff9-de7db978d7f6",
+        "evaluation_period": "Final evaluation",
+        "attendance_percentage": 88334,
+        "created_at": "2023-09-11T12:05:34.406Z",
+        "updated_at": "2023-09-11T21:41:07.059Z",
+        "student_id": "9280bd58-a044-41cd-8d5a-90baf03f14dd"
+      },
+      {
+        "id": "5da01e8b-d197-4578-9037-9037290fc2f5",
+        "evaluation_period": "Midterm evaluation",
+        "attendance_percentage": 40650,
+        "created_at": "2023-09-11T21:36:51.298Z",
+        "updated_at": "2023-09-11T15:26:06.811Z",
+        "student_id": "b25b4371-fc98-46f6-be64-5355a76b6460"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "9d6a3674-6a30-4e43-b284-2bc974bc9878",
+        "date": "2023-09-11T08:18:01.734Z",
+        "status": "Present",
+        "created_at": "2023-09-11T18:45:20.155Z",
+        "updated_at": "2023-09-12T04:27:08.137Z",
+        "student_id": "b25b4371-fc98-46f6-be64-5355a76b6460"
+      },
+      {
+        "id": "48e7da64-200b-4918-a542-e863b80c8243",
+        "date": "2023-09-11T19:30:05.563Z",
+        "status": "Absent",
+        "created_at": "2023-09-11T12:06:07.606Z",
+        "updated_at": "2023-09-12T02:25:56.095Z",
+        "student_id": "9280bd58-a044-41cd-8d5a-90baf03f14dd"
+      },
+      {
+        "id": "362d4e76-0b4d-47fb-b5a5-72368466092c",
+        "date": "2023-09-11T10:47:09.895Z",
+        "status": "Tardy",
+        "created_at": "2023-09-11T23:49:00.041Z",
+        "updated_at": "2023-09-12T06:40:55.576Z",
+        "student_id": "b25b4371-fc98-46f6-be64-5355a76b6460"
+      },
+      {
+        "id": "fb229d63-061c-4c87-8866-c41e8c0f7d2d",
+        "date": "2023-09-11T22:55:41.371Z",
+        "status": "Excused",
+        "created_at": "2023-09-11T11:33:04.615Z",
+        "updated_at": "2023-09-11T11:20:29.482Z",
+        "student_id": "a1e7c988-b994-4193-9d4b-94dbbba84740"
+      },
+      {
+        "id": "c140cbd1-27f6-497a-9166-f369cf451d80",
+        "date": "2023-09-12T02:32:33.738Z",
+        "status": "Late",
+        "created_at": "2023-09-11T14:29:11.055Z",
+        "updated_at": "2023-09-11T09:28:36.601Z",
+        "student_id": "f7bf75a0-c94a-4b93-9a0e-b8210a326278"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6222f857-669e-494e-be27-0ac76b92cf3d",
+        "email": "Jarvis_Gusikowski@gmail.com",
+        "firstName": "Eldon",
+        "lastName": "Wolf",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/463.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5244f169-3408-4686-b38f-65aef54aae70",
+        "email": "Mariana45@yahoo.com",
+        "firstName": "Brandt",
+        "lastName": "McGlynn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1150.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9a5ade58-a5af-4847-93d8-0307bd38757a",
+        "email": "Waino.Fay33@yahoo.com",
+        "firstName": "Janessa",
+        "lastName": "Huel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20653373",
+        "tenantId": null
+      },
+      {
+        "reference": "c9aa041e-10de-4048-973f-ec9cd632000f",
+        "email": "Ellie39@hotmail.com",
+        "firstName": "Verlie",
+        "lastName": "Towne",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99942577",
+        "tenantId": null
+      },
+      {
+        "reference": "d2b81e3a-9c43-43d0-8245-2699f9e04096",
+        "email": "Ila.Mante@yahoo.com",
+        "firstName": "Jakayla",
+        "lastName": "Howe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94009578",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "student": [
+      {
+        "id": "7a5dd774-7815-436d-a163-d377eaa0b1f2",
+        "name": "Emily",
+        "birthdate": "2023-09-11T18:32:55.897Z",
+        "division": "A",
+        "group_name": "Science Club",
+        "created_at": "2023-09-11T07:50:57.622Z",
+        "updated_at": "2023-09-12T01:51:41.355Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "310c1881-7117-43b0-ab29-433d94560102",
+        "name": "Daniel",
+        "birthdate": "2023-09-11T17:20:37.156Z",
+        "division": "B",
+        "group_name": "Chess Club",
+        "created_at": "2023-09-11T09:09:11.943Z",
+        "updated_at": "2023-09-11T22:02:12.336Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "48164744-d49b-420f-8f9d-232f9f98e2d7",
+        "name": "Olivia",
+        "birthdate": "2023-09-11T21:45:23.920Z",
+        "division": "C",
+        "group_name": "Art Club",
+        "created_at": "2023-09-11T22:51:28.664Z",
+        "updated_at": "2023-09-11T14:33:52.681Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "a4928bdb-e33a-44d1-b252-96694aadd12b",
+        "name": "Jacob",
+        "birthdate": "2023-09-12T01:21:26.632Z",
+        "division": "D",
+        "group_name": "Music Club",
+        "created_at": "2023-09-12T03:27:55.964Z",
+        "updated_at": "2023-09-11T20:39:56.392Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "0bcf7777-3593-48c9-a7b7-22dcff389bc3",
+        "name": "Sophia",
+        "birthdate": "2023-09-11T19:31:33.294Z",
+        "division": "E",
+        "group_name": "Sports Club",
+        "created_at": "2023-09-12T07:42:15.511Z",
+        "updated_at": "2023-09-11T15:19:34.203Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "leave": [
+      {
+        "id": "51ec95d8-3a1b-4dd3-83da-99a7d330f165",
+        "start_date": "2023-09-11T09:37:25.274Z",
+        "end_date": "2023-09-11T09:45:59.513Z",
+        "reason": "Family emergency",
+        "created_at": "2023-09-11T09:40:02.271Z",
+        "updated_at": "2023-09-11T13:57:37.951Z",
+        "student_id": "310c1881-7117-43b0-ab29-433d94560102"
+      },
+      {
+        "id": "2a9d3b4a-a5b1-4cf5-b8ee-49794a81354f",
+        "start_date": "2023-09-12T06:12:20.213Z",
+        "end_date": "2023-09-11T21:10:41.448Z",
+        "reason": "Medical appointment",
+        "created_at": "2023-09-12T00:05:10.990Z",
+        "updated_at": "2023-09-12T02:45:30.403Z",
+        "student_id": "a4928bdb-e33a-44d1-b252-96694aadd12b"
+      },
+      {
+        "id": "2ca8feaa-8b0a-4604-9575-1928d98ba5d6",
+        "start_date": "2023-09-11T11:10:38.718Z",
+        "end_date": "2023-09-12T02:11:28.951Z",
+        "reason": "Personal vacation",
+        "created_at": "2023-09-12T02:57:26.746Z",
+        "updated_at": "2023-09-12T01:22:31.509Z",
+        "student_id": "0bcf7777-3593-48c9-a7b7-22dcff389bc3"
+      },
+      {
+        "id": "d7af458a-72e1-4d3e-b788-9f016d112b31",
+        "start_date": "2023-09-11T20:00:32.621Z",
+        "end_date": "2023-09-12T06:43:25.240Z",
+        "reason": "Attending a conference",
+        "created_at": "2023-09-11T10:02:10.756Z",
+        "updated_at": "2023-09-11T11:35:09.008Z",
+        "student_id": "7a5dd774-7815-436d-a163-d377eaa0b1f2"
+      },
+      {
+        "id": "eb4a17a1-3b76-4fa8-af3a-891b26da0587",
+        "start_date": "2023-09-11T16:45:16.492Z",
+        "end_date": "2023-09-12T00:57:07.664Z",
+        "reason": "Religious observance",
+        "created_at": "2023-09-11T11:57:46.037Z",
+        "updated_at": "2023-09-11T14:30:55.307Z",
+        "student_id": "310c1881-7117-43b0-ab29-433d94560102"
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "100ee914-763d-4dc7-b158-b041dc390587",
+        "evaluation_period": "Quarter 1",
+        "attendance_percentage": 31065,
+        "created_at": "2023-09-11T19:02:00.664Z",
+        "updated_at": "2023-09-11T07:45:13.664Z",
+        "student_id": "7a5dd774-7815-436d-a163-d377eaa0b1f2"
+      },
+      {
+        "id": "8db04d58-6409-4336-92e5-9360aefbc340",
+        "evaluation_period": "Midterm",
+        "attendance_percentage": 9415,
+        "created_at": "2023-09-11T10:46:57.975Z",
+        "updated_at": "2023-09-12T02:44:25.494Z",
+        "student_id": "a4928bdb-e33a-44d1-b252-96694aadd12b"
+      },
+      {
+        "id": "8bccaea6-1268-4ad2-a59c-218fadbc6b9c",
+        "evaluation_period": "Finals",
+        "attendance_percentage": 15072,
+        "created_at": "2023-09-11T17:55:16.828Z",
+        "updated_at": "2023-09-11T09:32:35.166Z",
+        "student_id": "310c1881-7117-43b0-ab29-433d94560102"
+      },
+      {
+        "id": "5b3e44f9-9182-4966-9f04-a5280d0d110d",
+        "evaluation_period": "Annual",
+        "attendance_percentage": 92442,
+        "created_at": "2023-09-11T20:10:06.605Z",
+        "updated_at": "2023-09-11T09:02:32.617Z",
+        "student_id": "310c1881-7117-43b0-ab29-433d94560102"
+      },
+      {
+        "id": "b47e8e7b-d812-4a51-9e41-710ee5e51b3a",
+        "evaluation_period": "End of Semester",
+        "attendance_percentage": 71930,
+        "created_at": "2023-09-11T16:59:19.745Z",
+        "updated_at": "2023-09-11T13:50:04.445Z",
+        "student_id": "0bcf7777-3593-48c9-a7b7-22dcff389bc3"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "41cd8127-f694-4f8c-b217-175588f13cd8",
+        "date": "2023-09-11T11:14:53.626Z",
+        "status": "Present",
+        "created_at": "2023-09-12T07:02:15.929Z",
+        "updated_at": "2023-09-12T03:50:04.899Z",
+        "student_id": "310c1881-7117-43b0-ab29-433d94560102"
+      },
+      {
+        "id": "d7d9519e-4f5a-46a7-857c-f95adad2efe6",
+        "date": "2023-09-11T12:45:32.811Z",
+        "status": "Absent",
+        "created_at": "2023-09-11T08:20:18.788Z",
+        "updated_at": "2023-09-12T02:08:16.982Z",
+        "student_id": "7a5dd774-7815-436d-a163-d377eaa0b1f2"
+      },
+      {
+        "id": "d7137956-4389-415c-ac8e-0a1402a87c11",
+        "date": "2023-09-12T04:05:32.889Z",
+        "status": "Late",
+        "created_at": "2023-09-11T11:09:31.074Z",
+        "updated_at": "2023-09-12T01:56:46.795Z",
+        "student_id": "7a5dd774-7815-436d-a163-d377eaa0b1f2"
+      },
+      {
+        "id": "df30e859-4d00-4dcd-bad6-86211b2b9f3d",
+        "date": "2023-09-12T03:44:52.421Z",
+        "status": "Excused",
+        "created_at": "2023-09-11T22:14:46.740Z",
+        "updated_at": "2023-09-11T23:34:27.467Z",
+        "student_id": "0bcf7777-3593-48c9-a7b7-22dcff389bc3"
+      },
+      {
+        "id": "5ab8043d-74e8-419d-94e8-3e3893cba7a5",
+        "date": "2023-09-11T13:58:12.583Z",
+        "status": "Tardy",
+        "created_at": "2023-09-12T04:50:01.050Z",
+        "updated_at": "2023-09-11T20:42:35.787Z",
+        "student_id": "48164744-d49b-420f-8f9d-232f9f98e2d7"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ece768a6-9628-47d7-861f-5130d8497614",
+        "email": "Samir44@yahoo.com",
+        "firstName": "Devin",
+        "lastName": "Gerhold",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/455.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6743731c-44e7-4db8-a940-d3769f45779d",
+        "email": "Flossie.Dickinson@yahoo.com",
+        "firstName": "Demarcus",
+        "lastName": "Oberbrunner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7687309",
+        "tenantId": null
+      },
+      {
+        "reference": "32e196ff-8856-49fd-a871-e373cde8a336",
+        "email": "Betty_Hane@yahoo.com",
+        "firstName": "Allan",
+        "lastName": "McCullough",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7905701",
+        "tenantId": null
+      },
+      {
+        "reference": "0a5eafc2-b153-43a6-93be-9378ca4d4dcb",
+        "email": "Dee23@yahoo.com",
+        "firstName": "Geo",
+        "lastName": "Hills",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/53.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "547398b1-0e33-4fc0-bdc4-df3769f7764b",
+        "email": "Hallie_Boehm@hotmail.com",
+        "firstName": "Caesar",
+        "lastName": "Altenwerth",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54337887",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "student": [
+      {
+        "id": "398083a5-a1d3-484c-8b46-0a80a2e4f51d",
+        "name": "Oliver Thompson",
+        "birthdate": "2023-09-11T18:12:27.621Z",
+        "division": "Grade 1",
+        "group_name": "Science Club",
+        "created_at": "2023-09-11T20:14:18.320Z",
+        "updated_at": "2023-09-11T14:32:45.073Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "befe6d9b-2895-436e-8a7d-fbc209a05da7",
+        "name": "Sophia Martinez",
+        "birthdate": "2023-09-11T09:09:40.672Z",
+        "division": "Grade 2",
+        "group_name": "Chess Club",
+        "created_at": "2023-09-12T00:25:15.056Z",
+        "updated_at": "2023-09-12T03:22:29.237Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "89cab719-0788-4469-8c1b-41f611595bb0",
+        "name": "William Davis",
+        "birthdate": "2023-09-11T07:58:25.767Z",
+        "division": "Grade 3",
+        "group_name": "Art Club",
+        "created_at": "2023-09-11T15:37:56.866Z",
+        "updated_at": "2023-09-11T07:56:48.141Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "c665a36e-2227-4a7c-84ab-3112931f3a0e",
+        "name": "Isabella Anderson",
+        "birthdate": "2023-09-11T19:13:52.900Z",
+        "division": "Grade 4",
+        "group_name": "Music Club",
+        "created_at": "2023-09-11T16:59:51.185Z",
+        "updated_at": "2023-09-11T10:48:38.334Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "548373f6-404c-41ee-9422-f7fbae5c8849",
+        "name": "James Wilson",
+        "birthdate": "2023-09-11T13:30:40.040Z",
+        "division": "Grade 5",
+        "group_name": "Sports Club",
+        "created_at": "2023-09-12T03:27:07.127Z",
+        "updated_at": "2023-09-12T05:38:42.855Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "leave": [
+      {
+        "id": "68d6efa7-0577-4551-857a-755473a40d23",
+        "start_date": "2023-09-11T20:01:53.423Z",
+        "end_date": "2023-09-11T18:13:43.887Z",
+        "reason": "Family emergency",
+        "created_at": "2023-09-11T12:49:09.977Z",
+        "updated_at": "2023-09-12T03:27:59.014Z",
+        "student_id": "befe6d9b-2895-436e-8a7d-fbc209a05da7"
+      },
+      {
+        "id": "3dfe106e-9e95-4930-87c5-bdcff8b32240",
+        "start_date": "2023-09-11T18:49:33.497Z",
+        "end_date": "2023-09-11T13:09:51.172Z",
+        "reason": "Medical appointment",
+        "created_at": "2023-09-11T19:35:04.059Z",
+        "updated_at": "2023-09-11T21:54:42.052Z",
+        "student_id": "89cab719-0788-4469-8c1b-41f611595bb0"
+      },
+      {
+        "id": "f1198053-035c-4151-8744-bbaa289b9b09",
+        "start_date": "2023-09-11T19:37:04.699Z",
+        "end_date": "2023-09-12T00:26:28.362Z",
+        "reason": "Personal vacation",
+        "created_at": "2023-09-11T22:48:17.015Z",
+        "updated_at": "2023-09-11T10:49:01.822Z",
+        "student_id": "398083a5-a1d3-484c-8b46-0a80a2e4f51d"
+      },
+      {
+        "id": "5beb5b5b-0f24-4016-abab-a339464378a0",
+        "start_date": "2023-09-11T17:46:57.150Z",
+        "end_date": "2023-09-11T20:07:23.693Z",
+        "reason": "Attending a wedding",
+        "created_at": "2023-09-11T17:24:42.981Z",
+        "updated_at": "2023-09-11T13:48:17.766Z",
+        "student_id": "89cab719-0788-4469-8c1b-41f611595bb0"
+      },
+      {
+        "id": "42a73d06-3af6-4ba2-a677-cb84bf76663c",
+        "start_date": "2023-09-11T09:06:33.757Z",
+        "end_date": "2023-09-12T05:58:37.862Z",
+        "reason": "Religious observance",
+        "created_at": "2023-09-11T08:01:26.950Z",
+        "updated_at": "2023-09-11T07:46:47.469Z",
+        "student_id": "c665a36e-2227-4a7c-84ab-3112931f3a0e"
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "65a82d4a-2f85-49af-a6d9-e94fb197a3b6",
+        "evaluation_period": "Quarter 1",
+        "attendance_percentage": 24675,
+        "created_at": "2023-09-12T05:06:44.881Z",
+        "updated_at": "2023-09-11T16:04:18.876Z",
+        "student_id": "398083a5-a1d3-484c-8b46-0a80a2e4f51d"
+      },
+      {
+        "id": "a203a16d-d8e0-4539-a13a-a3d4361948ed",
+        "evaluation_period": "Quarter 2",
+        "attendance_percentage": 59085,
+        "created_at": "2023-09-11T10:23:05.546Z",
+        "updated_at": "2023-09-11T08:51:22.834Z",
+        "student_id": "89cab719-0788-4469-8c1b-41f611595bb0"
+      },
+      {
+        "id": "41a5b30f-6e6e-47b1-8565-b482a763639b",
+        "evaluation_period": "Midterm",
+        "attendance_percentage": 15545,
+        "created_at": "2023-09-12T05:42:51.658Z",
+        "updated_at": "2023-09-11T15:43:47.569Z",
+        "student_id": "c665a36e-2227-4a7c-84ab-3112931f3a0e"
+      },
+      {
+        "id": "4bce6bab-4130-458c-953c-a793e2ce7011",
+        "evaluation_period": "Final",
+        "attendance_percentage": 15154,
+        "created_at": "2023-09-11T11:23:06.598Z",
+        "updated_at": "2023-09-11T22:57:02.578Z",
+        "student_id": "548373f6-404c-41ee-9422-f7fbae5c8849"
+      },
+      {
+        "id": "a6a45b2f-854b-4029-8408-975d6a2b4840",
+        "evaluation_period": "Annual",
+        "attendance_percentage": 25378,
+        "created_at": "2023-09-11T07:46:55.814Z",
+        "updated_at": "2023-09-11T09:13:20.519Z",
+        "student_id": "89cab719-0788-4469-8c1b-41f611595bb0"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "ab17f58a-6988-465f-b819-1522af990377",
+        "date": "2023-09-11T14:02:06.271Z",
+        "status": "Present",
+        "created_at": "2023-09-11T17:08:34.847Z",
+        "updated_at": "2023-09-12T00:02:31.266Z",
+        "student_id": "89cab719-0788-4469-8c1b-41f611595bb0"
+      },
+      {
+        "id": "9c400def-de49-4b6d-8930-2e14e38d2a6d",
+        "date": "2023-09-12T00:27:12.899Z",
+        "status": "Absent",
+        "created_at": "2023-09-11T10:27:03.128Z",
+        "updated_at": "2023-09-11T09:52:58.233Z",
+        "student_id": "89cab719-0788-4469-8c1b-41f611595bb0"
+      },
+      {
+        "id": "dbd8688b-dd1d-4866-a155-f7e07042bf5a",
+        "date": "2023-09-11T18:11:44.479Z",
+        "status": "Late",
+        "created_at": "2023-09-12T02:25:04.249Z",
+        "updated_at": "2023-09-12T06:40:30.831Z",
+        "student_id": "befe6d9b-2895-436e-8a7d-fbc209a05da7"
+      },
+      {
+        "id": "5ad50186-387e-4ebd-bc8c-31d35605df4a",
+        "date": "2023-09-11T11:50:28.529Z",
+        "status": "Excused",
+        "created_at": "2023-09-11T20:48:07.817Z",
+        "updated_at": "2023-09-12T00:33:53.623Z",
+        "student_id": "c665a36e-2227-4a7c-84ab-3112931f3a0e"
+      },
+      {
+        "id": "ccc62f1b-4758-4573-991b-bea724a034c3",
+        "date": "2023-09-11T09:10:59.854Z",
+        "status": "Tardy",
+        "created_at": "2023-09-11T14:36:59.753Z",
+        "updated_at": "2023-09-11T20:35:26.767Z",
+        "student_id": "398083a5-a1d3-484c-8b46-0a80a2e4f51d"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9455be1c-2e3c-4227-b54c-49ff10d3a576",
+        "email": "Meghan14@yahoo.com",
+        "firstName": "Nelle",
+        "lastName": "Leffler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/344.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5ee684ae-c94b-46b7-801f-aa7c739d259d",
+        "email": "Hertha.Jacobi@hotmail.com",
+        "firstName": "Pinkie",
+        "lastName": "Brekke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64025842",
+        "tenantId": null
+      },
+      {
+        "reference": "0f1b11ac-5938-4056-9dbf-edb0ebbbbdb7",
+        "email": "Ramiro.Rippin22@hotmail.com",
+        "firstName": "Eino",
+        "lastName": "Leannon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12086598",
+        "tenantId": null
+      },
+      {
+        "reference": "733c04d4-6c44-449a-8a57-cf1f6b1e246a",
+        "email": "Roxanne98@gmail.com",
+        "firstName": "Queenie",
+        "lastName": "Bednar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1241.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8085fc7c-576c-4c20-83dc-f1bb62059e83",
+        "email": "Erick_Tremblay@gmail.com",
+        "firstName": "Virginia",
+        "lastName": "Haley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/476.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "student": [
+      {
+        "id": "7953bcec-b909-4979-8cb1-c782038ecd12",
+        "name": "John Doe",
+        "birthdate": "2023-09-11T23:11:25.907Z",
+        "division": "Grade 9",
+        "group_name": "Science Club",
+        "created_at": "2023-09-11T19:48:33.206Z",
+        "updated_at": "2023-09-11T09:08:11.886Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "fd5a5d84-523b-41c1-9ad5-992c4308f0a4",
+        "name": "Jane Smith",
+        "birthdate": "2023-09-12T07:26:59.572Z",
+        "division": "Grade 10",
+        "group_name": "Chess Club",
+        "created_at": "2023-09-11T11:01:15.271Z",
+        "updated_at": "2023-09-11T15:08:15.515Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "0f302ca3-f7cd-45a1-b828-0f277e5bc25d",
+        "name": "Michael Brown",
+        "birthdate": "2023-09-11T08:36:28.437Z",
+        "division": "Grade 11",
+        "group_name": "Drama Club",
+        "created_at": "2023-09-12T01:08:34.637Z",
+        "updated_at": "2023-09-12T03:51:28.849Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "c3d0eb31-a6a3-46b3-aaea-ca7cfa549373",
+        "name": "Emily Johnson",
+        "birthdate": "2023-09-11T08:29:00.090Z",
+        "division": "Grade 12",
+        "group_name": "Debate Club",
+        "created_at": "2023-09-11T22:08:29.793Z",
+        "updated_at": "2023-09-11T09:37:32.257Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "6d844761-0299-4531-94d3-d87a9da46bfa",
+        "name": "David Wilson",
+        "birthdate": "2023-09-11T13:05:05.177Z",
+        "division": "College",
+        "group_name": "Art Club",
+        "created_at": "2023-09-11T15:40:48.915Z",
+        "updated_at": "2023-09-12T03:03:39.973Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "leave": [
+      {
+        "id": "09b682da-db98-4e72-807d-d10d6fffa829",
+        "start_date": "2023-09-11T18:28:49.659Z",
+        "end_date": "2023-09-11T21:59:15.938Z",
+        "reason": "Family emergency",
+        "created_at": "2023-09-11T11:19:26.067Z",
+        "updated_at": "2023-09-11T22:53:58.361Z",
+        "student_id": "fd5a5d84-523b-41c1-9ad5-992c4308f0a4"
+      },
+      {
+        "id": "0770eda7-2641-42c7-9df3-7b645596cc55",
+        "start_date": "2023-09-11T20:45:55.647Z",
+        "end_date": "2023-09-11T10:43:08.398Z",
+        "reason": "Medical appointment",
+        "created_at": "2023-09-12T01:23:46.932Z",
+        "updated_at": "2023-09-11T08:34:33.694Z",
+        "student_id": "7953bcec-b909-4979-8cb1-c782038ecd12"
+      },
+      {
+        "id": "77cf8717-9d78-40f6-9585-39c39c358650",
+        "start_date": "2023-09-11T19:41:48.312Z",
+        "end_date": "2023-09-11T16:01:54.795Z",
+        "reason": "Personal vacation",
+        "created_at": "2023-09-11T18:21:39.939Z",
+        "updated_at": "2023-09-12T02:02:05.009Z",
+        "student_id": "7953bcec-b909-4979-8cb1-c782038ecd12"
+      },
+      {
+        "id": "80d0913c-a7ee-4860-94e0-54cc4759abce",
+        "start_date": "2023-09-11T21:47:42.683Z",
+        "end_date": "2023-09-11T22:08:19.310Z",
+        "reason": "Attending a conference",
+        "created_at": "2023-09-11T22:31:54.003Z",
+        "updated_at": "2023-09-11T15:58:43.353Z",
+        "student_id": "7953bcec-b909-4979-8cb1-c782038ecd12"
+      },
+      {
+        "id": "e2cfa060-fa92-4a62-8611-8879015a37fa",
+        "start_date": "2023-09-12T02:58:04.928Z",
+        "end_date": "2023-09-12T07:01:16.317Z",
+        "reason": "Participating in a competition",
+        "created_at": "2023-09-11T22:27:19.912Z",
+        "updated_at": "2023-09-11T20:35:00.351Z",
+        "student_id": "fd5a5d84-523b-41c1-9ad5-992c4308f0a4"
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "34611ae2-32ad-4016-9ff6-67b4ac5aa10e",
+        "evaluation_period": "First semester",
+        "attendance_percentage": 20212,
+        "created_at": "2023-09-11T12:52:51.259Z",
+        "updated_at": "2023-09-11T12:20:54.091Z",
+        "student_id": "c3d0eb31-a6a3-46b3-aaea-ca7cfa549373"
+      },
+      {
+        "id": "39f41781-5cdc-4348-b880-07061d174dd8",
+        "evaluation_period": "Second semester",
+        "attendance_percentage": 88756,
+        "created_at": "2023-09-11T23:47:07.195Z",
+        "updated_at": "2023-09-11T09:39:24.441Z",
+        "student_id": "6d844761-0299-4531-94d3-d87a9da46bfa"
+      },
+      {
+        "id": "9abe6669-9c64-4e5f-b3c4-4dd446bc209b",
+        "evaluation_period": "Mid-year",
+        "attendance_percentage": 38958,
+        "created_at": "2023-09-11T18:10:34.380Z",
+        "updated_at": "2023-09-11T16:36:50.061Z",
+        "student_id": "6d844761-0299-4531-94d3-d87a9da46bfa"
+      },
+      {
+        "id": "8a16e8b3-ed00-4408-839d-1fc60d822f02",
+        "evaluation_period": "End of year",
+        "attendance_percentage": 21786,
+        "created_at": "2023-09-11T20:26:13.053Z",
+        "updated_at": "2023-09-12T05:59:14.354Z",
+        "student_id": "fd5a5d84-523b-41c1-9ad5-992c4308f0a4"
+      },
+      {
+        "id": "682e7390-c820-489a-a2d1-6ff8fce46e99",
+        "evaluation_period": "Quarterly",
+        "attendance_percentage": 58677,
+        "created_at": "2023-09-11T21:48:33.707Z",
+        "updated_at": "2023-09-11T08:20:49.363Z",
+        "student_id": "7953bcec-b909-4979-8cb1-c782038ecd12"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "700d0ae1-9011-43d9-ac07-53e3056a2baf",
+        "date": "2023-09-11T19:04:18.466Z",
+        "status": "Present",
+        "created_at": "2023-09-11T18:10:35.622Z",
+        "updated_at": "2023-09-11T22:57:12.465Z",
+        "student_id": "c3d0eb31-a6a3-46b3-aaea-ca7cfa549373"
+      },
+      {
+        "id": "cdc5123f-5860-42d2-8cd5-a10106c54839",
+        "date": "2023-09-11T10:03:33.692Z",
+        "status": "Absent",
+        "created_at": "2023-09-12T06:23:57.336Z",
+        "updated_at": "2023-09-12T04:45:21.707Z",
+        "student_id": "c3d0eb31-a6a3-46b3-aaea-ca7cfa549373"
+      },
+      {
+        "id": "76ca2627-9a56-4e24-a222-d19befa7aec0",
+        "date": "2023-09-11T13:32:11.318Z",
+        "status": "Late",
+        "created_at": "2023-09-12T06:05:56.823Z",
+        "updated_at": "2023-09-11T09:04:11.795Z",
+        "student_id": "fd5a5d84-523b-41c1-9ad5-992c4308f0a4"
+      },
+      {
+        "id": "f875b303-b027-431c-97ca-767e4688d06d",
+        "date": "2023-09-11T21:31:27.784Z",
+        "status": "Excused",
+        "created_at": "2023-09-12T04:01:04.656Z",
+        "updated_at": "2023-09-12T00:43:33.210Z",
+        "student_id": "c3d0eb31-a6a3-46b3-aaea-ca7cfa549373"
+      },
+      {
+        "id": "5f057f07-15f8-4366-8f7e-808b9ef2475b",
+        "date": "2023-09-12T03:13:10.233Z",
+        "status": "Tardy",
+        "created_at": "2023-09-12T05:14:42.864Z",
+        "updated_at": "2023-09-11T11:07:29.659Z",
+        "student_id": "fd5a5d84-523b-41c1-9ad5-992c4308f0a4"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "035e177f-98fd-4796-831d-ef4ed29bd73d",
+        "email": "Liliane54@gmail.com",
+        "firstName": "Patsy",
+        "lastName": "Daugherty",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/219.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "02f52827-71ec-4f8c-a46d-eda3dffc9330",
+        "email": "Helen_McDermott@yahoo.com",
+        "firstName": "Christian",
+        "lastName": "Bogan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/477.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "466ae1b9-3611-4d48-ba93-ca056f2a9b97",
+        "email": "Zella_Runolfsdottir28@yahoo.com",
+        "firstName": "Delta",
+        "lastName": "Harber",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/488.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ed19fce1-0170-4c9c-a1ba-503929ae0305",
+        "email": "Ryley.Raynor16@hotmail.com",
+        "firstName": "Reginald",
+        "lastName": "Stroman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1007.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "885fbc82-fa24-4463-8635-65bf736e87de",
+        "email": "Estrella.Stroman@hotmail.com",
+        "firstName": "Spencer",
+        "lastName": "Medhurst-Goyette",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/161.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "student": [
+      {
+        "id": "9bd711d5-0ab3-4d56-acc4-cf9ddc8df58e",
+        "name": "John Doe",
+        "birthdate": "2023-09-11T12:32:43.213Z",
+        "division": "Grade 1",
+        "group_name": "Science Club",
+        "created_at": "2023-09-11T09:04:18.361Z",
+        "updated_at": "2023-09-12T04:33:25.813Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "7c5bd20b-0082-4cf8-963f-2aac9e27b46c",
+        "name": "Jane Smith",
+        "birthdate": "2023-09-12T03:46:57.310Z",
+        "division": "Grade 5",
+        "group_name": "Chess Club",
+        "created_at": "2023-09-11T09:00:57.740Z",
+        "updated_at": "2023-09-11T20:43:35.121Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "f5541342-b6d0-4736-bbc3-9a187e7fd122",
+        "name": "Michael Brown",
+        "birthdate": "2023-09-11T19:34:04.134Z",
+        "division": "Grade 8",
+        "group_name": "Art Club",
+        "created_at": "2023-09-11T10:30:16.412Z",
+        "updated_at": "2023-09-11T12:12:31.841Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "fc107f64-78ef-453a-a505-af7366bce9b9",
+        "name": "Sarah Jones",
+        "birthdate": "2023-09-11T10:01:30.618Z",
+        "division": "Grade 10",
+        "group_name": "Debate Club",
+        "created_at": "2023-09-11T16:42:46.581Z",
+        "updated_at": "2023-09-11T16:27:02.388Z",
+        "school_id": "main_entity_pk"
+      },
+      {
+        "id": "cc9d7de9-9d33-4d03-bcb5-de2ed8d7d42e",
+        "name": "Robert Wilson",
+        "birthdate": "2023-09-11T15:47:42.020Z",
+        "division": "Grade 12",
+        "group_name": "Music Club",
+        "created_at": "2023-09-12T03:37:16.508Z",
+        "updated_at": "2023-09-11T19:13:11.435Z",
+        "school_id": "main_entity_pk"
+      }
+    ],
+    "leave": [
+      {
+        "id": "53fbfaf8-8c4a-4b78-881e-d584549e267f",
+        "start_date": "2023-09-12T04:22:06.241Z",
+        "end_date": "2023-09-12T06:48:56.554Z",
+        "reason": "Family emergency",
+        "created_at": "2023-09-12T03:44:08.403Z",
+        "updated_at": "2023-09-12T00:03:16.952Z",
+        "student_id": "fc107f64-78ef-453a-a505-af7366bce9b9"
+      },
+      {
+        "id": "abb9a16a-c103-4a5a-aab7-b3f237751539",
+        "start_date": "2023-09-11T09:34:18.904Z",
+        "end_date": "2023-09-11T22:47:41.440Z",
+        "reason": "Medical appointment",
+        "created_at": "2023-09-11T22:27:44.302Z",
+        "updated_at": "2023-09-11T08:44:56.678Z",
+        "student_id": "f5541342-b6d0-4736-bbc3-9a187e7fd122"
+      },
+      {
+        "id": "a833d7a1-f702-40b7-ba85-01b418b3fc4b",
+        "start_date": "2023-09-11T09:51:46.778Z",
+        "end_date": "2023-09-12T07:05:58.047Z",
+        "reason": "Personal vacation",
+        "created_at": "2023-09-11T22:57:16.847Z",
+        "updated_at": "2023-09-12T00:18:22.162Z",
+        "student_id": "f5541342-b6d0-4736-bbc3-9a187e7fd122"
+      },
+      {
+        "id": "e12eb8ae-0b7a-4810-a14c-071804f2c626",
+        "start_date": "2023-09-11T09:03:13.170Z",
+        "end_date": "2023-09-11T17:27:04.315Z",
+        "reason": "Attending a conference",
+        "created_at": "2023-09-11T23:09:26.308Z",
+        "updated_at": "2023-09-12T06:49:31.430Z",
+        "student_id": "9bd711d5-0ab3-4d56-acc4-cf9ddc8df58e"
+      },
+      {
+        "id": "fb9b9da0-31e3-4020-bbb7-77e23f904473",
+        "start_date": "2023-09-12T03:03:09.533Z",
+        "end_date": "2023-09-11T09:24:18.606Z",
+        "reason": "Religious observance",
+        "created_at": "2023-09-11T15:39:29.692Z",
+        "updated_at": "2023-09-11T18:42:43.345Z",
+        "student_id": "9bd711d5-0ab3-4d56-acc4-cf9ddc8df58e"
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "449406cd-ff17-4121-ad09-b7289febff66",
+        "evaluation_period": "1st Quarter",
+        "attendance_percentage": 21616,
+        "created_at": "2023-09-11T09:41:17.198Z",
+        "updated_at": "2023-09-11T09:54:06.684Z",
+        "student_id": "7c5bd20b-0082-4cf8-963f-2aac9e27b46c"
+      },
+      {
+        "id": "5a35f032-9bb8-474d-8097-106e335d65d1",
+        "evaluation_period": "2nd Quarter",
+        "attendance_percentage": 72484,
+        "created_at": "2023-09-11T10:19:16.982Z",
+        "updated_at": "2023-09-11T19:21:11.821Z",
+        "student_id": "7c5bd20b-0082-4cf8-963f-2aac9e27b46c"
+      },
+      {
+        "id": "924e5b6e-d28f-4ddf-9dc1-154a62e30f93",
+        "evaluation_period": "Midterm",
+        "attendance_percentage": 6800,
+        "created_at": "2023-09-11T12:55:31.007Z",
+        "updated_at": "2023-09-12T05:22:28.768Z",
+        "student_id": "cc9d7de9-9d33-4d03-bcb5-de2ed8d7d42e"
+      },
+      {
+        "id": "9d70ee90-c307-41ec-baae-902a4bcd5115",
+        "evaluation_period": "3rd Quarter",
+        "attendance_percentage": 59777,
+        "created_at": "2023-09-11T11:27:01.479Z",
+        "updated_at": "2023-09-12T02:07:19.207Z",
+        "student_id": "9bd711d5-0ab3-4d56-acc4-cf9ddc8df58e"
+      },
+      {
+        "id": "aaabc953-19dc-461f-84b0-29e1c992c2a1",
+        "evaluation_period": "Final",
+        "attendance_percentage": 52085,
+        "created_at": "2023-09-12T03:32:56.889Z",
+        "updated_at": "2023-09-11T21:03:33.051Z",
+        "student_id": "f5541342-b6d0-4736-bbc3-9a187e7fd122"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "00a50402-127e-47df-bcf4-040f4b13d87b",
+        "date": "2023-09-11T15:25:27.046Z",
+        "status": "Present",
+        "created_at": "2023-09-12T01:50:33.450Z",
+        "updated_at": "2023-09-12T03:54:01.792Z",
+        "student_id": "9bd711d5-0ab3-4d56-acc4-cf9ddc8df58e"
+      },
+      {
+        "id": "82d8dc12-a595-4650-89ce-d00618d57dd1",
+        "date": "2023-09-12T06:16:08.657Z",
+        "status": "Absent",
+        "created_at": "2023-09-11T19:02:08.808Z",
+        "updated_at": "2023-09-11T10:55:58.703Z",
+        "student_id": "fc107f64-78ef-453a-a505-af7366bce9b9"
+      },
+      {
+        "id": "8ca1d930-7c7b-4c30-a969-02598227d906",
+        "date": "2023-09-11T19:55:27.528Z",
+        "status": "Late",
+        "created_at": "2023-09-11T11:54:34.129Z",
+        "updated_at": "2023-09-11T13:41:41.964Z",
+        "student_id": "fc107f64-78ef-453a-a505-af7366bce9b9"
+      },
+      {
+        "id": "955f939f-7b0f-4a8d-b59c-cd85391b81bf",
+        "date": "2023-09-11T17:25:17.810Z",
+        "status": "Excused",
+        "created_at": "2023-09-11T21:36:44.455Z",
+        "updated_at": "2023-09-12T00:56:34.207Z",
+        "student_id": "9bd711d5-0ab3-4d56-acc4-cf9ddc8df58e"
+      },
+      {
+        "id": "7d67aada-c06d-4705-af74-fabb553bd928",
+        "date": "2023-09-11T21:18:35.959Z",
+        "status": "Tardy",
+        "created_at": "2023-09-11T09:55:17.340Z",
+        "updated_at": "2023-09-12T04:21:05.052Z",
+        "student_id": "cc9d7de9-9d33-4d03-bcb5-de2ed8d7d42e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "42a0f597-f9ba-430d-bd22-bde5ea335685",
+        "email": "Sabina35@yahoo.com",
+        "firstName": "Tatum",
+        "lastName": "Kiehn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1114.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2bcbdf38-73f2-4c3e-92ae-da4beb4cadb5",
+        "email": "Jessika.Kassulke68@gmail.com",
+        "firstName": "Myrtis",
+        "lastName": "Reilly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/80.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "54c85e48-f66c-4a03-a93b-7c19c8c6b442",
+        "email": "Johnpaul_Skiles36@hotmail.com",
+        "firstName": "Prudence",
+        "lastName": "Grimes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/217.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "00719a3c-a42d-4323-8609-f87b897e18dd",
+        "email": "Makenzie_Douglas-Ernser81@gmail.com",
+        "firstName": "Donnell",
+        "lastName": "Doyle",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/483.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "74ab5fac-1008-4ed5-945f-5a5e1613a5e1",
+        "email": "Elwin72@hotmail.com",
+        "firstName": "Wilburn",
+        "lastName": "Bartell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34144343",
+        "tenantId": null
+      }
+    ]
+  }
+]
